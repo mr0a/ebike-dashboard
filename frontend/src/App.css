@@ -1,0 +1,94 @@
+/* .App {
+  text-align: center;
+} */
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* * {
+  border: 2px solid black;
+} */
+
+:root{
+  --light: white;
+  --dark: black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body{
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* cursor: none; */
+}
+
+.dark {
+  color: var(--light);
+}
+
+.light {
+  color: var(--dark);
+}
+
+div.container, div#root {
+  height: 100%;
+}
+
+div.header-content {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+section.main {
+  margin: 0 5vw;
+}
+
+section.main h3{
+  font-size: 4rem;
+}
+
+div.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+div.data-container {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.data-value{
+  font-size: 4rem;
+}
+
+h3.date {
+  font-size: 1.8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.date-time {
+  display: flex;
+  justify-content: space-between;
+  /* width: 50vw; */
+}
+
